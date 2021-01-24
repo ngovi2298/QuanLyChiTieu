@@ -20,7 +20,7 @@ class HomeView extends StatelessWidget {
         //tạo appbar
         appBar: AppBar(
           centerTitle: true,
-          title: Text('Home',style: TextStyle(fontSize: 30.0,fontFamily:'Lobster' ),),
+          title: Text('Home',style: TextStyle(fontSize: 30.0),),
           backgroundColor: backgroundColor,
         ),
         bottomNavigationBar: AppDocker(),
